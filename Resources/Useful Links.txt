@@ -1,0 +1,16 @@
+[Practical Packet Radio PDF](https://mirror.thelifeofkenneth.com/lib/electronics_archive/PracticalPacketRadio.pdf)
+https://github.com/googlecartographer/cartographer_ros
+https://www.ros.org/
+http://wiki.ros.org/rviz
+http://wiki.ros.org/rqt_plot
+http://wiki.ros.org/navigation
+http://wiki.ros.org/ros_control
+http://wiki.ros.org/Packages
+https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
+https://www.ros.org/core-components/
+https://github.com/googlecartographer/cartographer/blob/master/docs/source/high_level_system_overview.png
+https://fritzing.org/home/
+http://www.nemsim.com/ece395blimp/fritzing/parts/svg/core/breadboard/
+https://www.python.org/
+https://github.com/opencv/opencv
+https://www.tensorflow.org/
