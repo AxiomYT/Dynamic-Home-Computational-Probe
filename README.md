@@ -63,3 +63,4 @@ This project is licensed under the GPL 3.0 License - see the [LICENSE.md](LICENS
 * [W3Schools](https://www.w3schools.com/)
 * [Fritzing](https://fritzing.org/home/)
 * [Dire Wolf](https://github.com/wb2osz/direwolf)
+* [I2C Arduino to Pi](https://github.com/kmaragos/raspi2cino)
