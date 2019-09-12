@@ -46,7 +46,7 @@ The Raspberry Pi is going to need some initial configuration to run the code. Al
 Firstly, we configure the Rasberry Pi to enable the I2C interface. So, open a Terminal session on the Raspberry Pi to execute the following command:  
 
 ```
-sudo raspi-config.
+sudo raspi-config
 ```
 
 The Raspberry Pi Configuration Tool will now open to allow you to select interface options. Then on the next screen, 
