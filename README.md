@@ -40,11 +40,6 @@ Bluetin-Echo==0.2.0
 python3-smbus
 ```
 
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [Direwolf](https://github.com/wb2osz/direwolf) - The Packet radio system implemented
