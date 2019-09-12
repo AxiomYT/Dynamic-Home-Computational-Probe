@@ -104,6 +104,7 @@ This project is licensed under the GPL 3.0 License - see the [LICENSE.md](LICENS
 
 ## Acknowledgments
 
+* [BlueTin.IO](https://www.bluetin.io/interfacing/i2c-connect-raspberry-pi-arduino/)
 * [W3Schools](https://www.w3schools.com/)
 * [Fritzing](https://fritzing.org/home/)
 * [Dire Wolf](https://github.com/wb2osz/direwolf)
