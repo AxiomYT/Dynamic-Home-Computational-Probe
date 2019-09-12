@@ -8,5 +8,4 @@
 
 ### Packet Radio
 
-* uses our own cursed data protocols - **DNS** ( **D**ata **N**etwork **S**olution ) 
-and **TCP** ( **T**ransmission **C**ontrol; **P**oorly )
+* uses our own cursed data protocols - **DNS** ( **D**ata **N**etwork **S**olution )
