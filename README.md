@@ -39,6 +39,37 @@ python3-w1thermsensor
 Bluetin-Echo==0.2.0
 python3-smbus
 ```
+## Installation
+
+The Raspberry Pi is going to need some initial configuration to run the example code. Also, to support the SMBus2 Python library, we need to install some dependencies.
+
+Firstly, we configure the Rasberry Pi to enable the I2C interface. So, open a Terminal session on the Raspberry Pi to execute the following command:  
+
+```
+sudo raspi-config.
+```
+
+The Raspberry Pi Configuration Tool will now open to allow you to select interface options. Then on the next screen, 
+choose I2C to enable the interface.
+
+![pi-software-configuration-tool](https://github.com/AxiomYT/Dynamic-Home-Computational-Probe/blob/master/pi-software-configuration-tool.png)
+
+Secondly, we now install the dependencies required by the SMBus2 library.
+execute the following in the Pi Terminal:
+
+```
+sudo apt-get install i2c-tools
+```
+
+
+Lastly, we install SMBus2, which is a drop-in replacement for smbus-cffi/smbus-python in pure Python. Enter the following command in the Terminal:
+
+```
+# Either for Python 2.7
+pip install smbus2
+# Or, for Python 3
+pip3 install smbus2
+```
 
 ## Built With
 
