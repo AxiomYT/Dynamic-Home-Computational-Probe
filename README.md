@@ -41,7 +41,7 @@ python3-smbus
 ```
 ## Installation
 
-The Raspberry Pi is going to need some initial configuration to run the example code. Also, to support the SMBus2 Python library, we need to install some dependencies.
+The Raspberry Pi is going to need some initial configuration to run the code. Also, to support the SMBus2 Python library, we need to install some dependencies.
 
 Firstly, we configure the Rasberry Pi to enable the I2C interface. So, open a Terminal session on the Raspberry Pi to execute the following command:  
 
