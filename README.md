@@ -9,35 +9,9 @@ Foundation Apprenticeship Year Two Project
 All dependencies are in [requirements.txt](requirements.txt)
 
 ```
-numpy==1.12
-scipy==0.19.1
-scikit-learn==0.18.1
-matplotlib
-opencv==3.1
-jupyter==1.0
-notebook>=5.7.2
-pandas==0.22
-theano
-keras==2.1.5
-mkl-service==1.1.2
-python3-pip
-opencv-python==4.1.1.26
-hcsr04sensor
-cachetools==3.1.1 
-futures==3.3.0 
-google-api-core==1.14.2 
-google-auth==1.6.3 
-google-cloud-vision==0.39.0 
-googleapis-common-protos==1.6.0 
-grpcio==1.23.0 
-protobuf==3.9.1 
-pyasn1==0.4.7 
-pyasn1-modules==0.2.6 
-rsa==4.0
-rpi-gpio==0.6.5
-python3-w1thermsensor
-Bluetin-Echo==0.2.0
-python3-smbus
+rpi-gpio==0.6.5 X
+Bluetin-Echo==0.2.0 X
+python3-smbus X
 ```
 ## Installation <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/I%C2%B2C_bus_logo.svg/1200px-I%C2%B2C_bus_logo.svg.png" width="50" height="50" />
 
@@ -111,3 +85,6 @@ This project is licensed under the GPL 3.0 License - see the [LICENSE.md](LICENS
 * [Fritzing](https://fritzing.org/home/)
 * [Dire Wolf](https://github.com/wb2osz/direwolf)
 * [I2C Arduino to Pi](https://github.com/kmaragos/raspi2cino)
+* [Communication Standards PDF](http://seniordesignlab.com/wp-content/uploads/2018/03/PIC_MSSP.pdf)
+* [I2C Logo \( Philips \(NXP\)) ](https://www.nxp.com/docs/en/data-sheet/PCA9540B.pdf)
+* [Circuit SVG](https://www.ohmite.com/)
