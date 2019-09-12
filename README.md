@@ -39,9 +39,7 @@ python3-w1thermsensor
 Bluetin-Echo==0.2.0
 python3-smbus
 ```
-## Installation 
-
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/I%C2%B2C_bus_logo.svg/1200px-I%C2%B2C_bus_logo.svg.png" width="200" height="200" />
+## Installation <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/I%C2%B2C_bus_logo.svg/1200px-I%C2%B2C_bus_logo.svg.png" width="50" height="50" />
 
 The Raspberry Pi is going to need some initial configuration to run the code. Also, to support the SMBus2 Python library, we need to install some dependencies.
 
