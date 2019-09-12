@@ -81,7 +81,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Logan Tarvit** - *Packet radio system implementation, Sensor platform creation and data transportation across the device, General hardware construction, Webserver Implementation, * - [Axiom](https://github.com/AxiomYT)
+* **Logan Tarvit** - *Packet radio system implementation, Sensor platform creation and data transportation across the device, General hardware construction, Webserver Implementation.* - [Axiom](https://github.com/AxiomYT)
 
 * **Rory Cormack** - *AI construction and maintenence, SQL Database construction, High and low level movement processing* - [Liather](https://github.com/Liather)
 
