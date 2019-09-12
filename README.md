@@ -13,7 +13,7 @@ rpi-gpio==0.6.5 X
 Bluetin-Echo==0.2.0 X
 python3-smbus X
 ```
-## Installation <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/I%C2%B2C_bus_logo.svg/1200px-I%C2%B2C_bus_logo.svg.png" width="50" height="50" />
+## Installation <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/I%C2%B2C_bus_logo.svg/1200px-I%C2%B2C_bus_logo.svg.png" width="50" height="50" align="right"/>
 
 The Raspberry Pi is going to need some initial configuration to run the code. Also, to support the SMBus2 Python library, we need to install some dependencies.
 
@@ -44,7 +44,7 @@ pip install smbus2
 # Or, for Python 3
 pip3 install smbus2
 ```
-## The Circuit <img src="https://github.com/AxiomYT/Dynamic-Home-Computational-Probe/blob/master/download.png" width="50" height="50" />
+## The Circuit <img src="https://github.com/AxiomYT/Dynamic-Home-Computational-Probe/blob/master/download.png" width="50" height="50" align="right" />
 
 
 
