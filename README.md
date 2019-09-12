@@ -70,6 +70,19 @@ pip install smbus2
 # Or, for Python 3
 pip3 install smbus2
 ```
+## The Circuit
+
+To run the example code, you will need to connect the I2C interface between the Raspberry Pi and Arduino. The Raspberry Pi will have the USB power, while the Arduino has power from the computer USB serial connection. The Arduino is a 3.3v Pro Mini compatible running at 8MHz. And due to the separate power supplies, we need to connect the grounds between the Arduino and Raspberry Pi.
+
+However, this circuit will not be compatible with 5v Arduino board versions. While it is possible to disable the Arduino pull-up resistors, a 5v spike on the I2C is still possible during the pull-up transition.
+
+So, to check the correct installation of the software packages, run the following command at the Terminal Prompt. However, you will need the code uploaded and running on the Arduino. This example code will set the slave address of the Arduino board, and hopefully, this test will detect that address.
+
+```
+sudo i2cdetect -y 1
+```
+
+![i2cdetect-serial-bus-check](https://github.com/AxiomYT/Dynamic-Home-Computational-Probe/blob/master/i2cdetect-serial-bus-check.png)
 
 ## Built With
 
