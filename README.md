@@ -61,3 +61,4 @@ This project is licensed under the GPL 3.0 License - see the [LICENSE.md](LICENS
 ## Acknowledgments
 
 * [W3Schools](https://www.w3schools.com/)
+* [Fritzing](https://fritzing.org/home/)
