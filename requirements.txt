@@ -1,0 +1,3 @@
+rpi-gpio==0.6.5 X
+Bluetin-Echo==0.2.0 X
+python3-smbus X
