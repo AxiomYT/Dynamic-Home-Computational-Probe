@@ -4,55 +4,42 @@ Foundation Apprenticeship Year Two Project
 
 ## Getting Started
 
-- Windows
+### Dependencies
 
-Download Project
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+All dependencies are in [requirements.txt](requirements.txt)
 
 ```
-Give examples
+numpy==1.12
+scipy==0.19.1
+scikit-learn==0.18.1
+matplotlib
+opencv==3.1
+jupyter==1.0
+notebook>=5.7.2
+pandas==0.22
+theano
+keras==2.1.5
+mkl-service==1.1.2
+python3-pip
+opencv-python==4.1.1.26
+hcsr04sensor
+cachetools==3.1.1 
+futures==3.3.0 
+google-api-core==1.14.2 
+google-auth==1.6.3 
+google-cloud-vision==0.39.0 
+googleapis-common-protos==1.6.0 
+grpcio==1.23.0 
+protobuf==3.9.1 
+pyasn1==0.4.7 
+pyasn1-modules==0.2.6 
+rsa==4.0
+rpi-gpio==0.6.5
+python3-w1thermsensor
+Bluetin-Echo==0.2.0
+python3-smbus
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
@@ -60,13 +47,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [Direwolf](https://github.com/wb2osz/direwolf) - The Packet radio system implemented
 
 ## Versioning
 
@@ -74,16 +55,14 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Logan Tarvit** - *Packet radio system implementation, Sensor platform creation and data transportation across the device, General hardware construction, Webserver Implementation, * - [Axiom](https://github.com/AxiomYT)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Rory Cormack** - *AI construction and maintenence, SQL Database construction, High and low level movement processing* - [Liather](https://github.com/Liather)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL 3.0 License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* [W3Schools](https://www.w3schools.com/)
