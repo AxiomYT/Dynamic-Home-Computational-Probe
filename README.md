@@ -8,8 +8,8 @@
 
 * uses our own cursed data protocols - **DNS** ( **D**ata **N**etwork **S**olution )
 * Runs over Direwolf
-* Station Transciever - Baofeng UV-5R
-* Probe Transicever - Yaesu Vertex VX-150 
+* Station Transciever - Baofeng UV-5R ( 1 W )
+* Probe Transicever - Yaesu Vertex VX-150 ( 100mw )
 
 ## Getting Started
 
