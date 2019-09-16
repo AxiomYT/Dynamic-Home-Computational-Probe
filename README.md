@@ -1,4 +1,4 @@
-# **D**ynamic **H**ome **C**omputational **P**robe (DHCP)
+# **D**ynamic **H**ome **C**omputational **P**robe (DHCP) <img src="https://github.com/AxiomYT/Dynamic-Home-Computational-Probe/blob/Logan/DHCP%20Logo.svg" width="100" height="100" align="right"/>
 
 ## Communications branch
 
