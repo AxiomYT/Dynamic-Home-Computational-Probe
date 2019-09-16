@@ -8,7 +8,7 @@ Our design is to create an autonomous robot that will – using OpenCV and ROS, 
 
 ### Packet Radio
 
-* uses our own cursed data protocols - **DNS** ( **D**ata **N**etwork **S**olution )
+* Uses our own cursed data protocols - **DNS** ( **D**ata **N**etwork **S**olution )
 * Runs over Direwolf
 * Station Transciever - Baofeng UV-5R ( 1 W )
 * Probe Transciever - Yaesu Vertex VX-150 ( 100mw )
