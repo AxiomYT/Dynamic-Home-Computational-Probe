@@ -101,13 +101,15 @@ In case of problems with the next step, you can use following repositories inste
 
 ### Desktop-Full Install: (Recommended) : ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators and 2D/3D perception
 
+```
 sudo apt install ros-melodic-desktop-full
-or click here
+```
 
 ### Desktop Install: ROS, rqt, rviz, and robot-generic libraries
 
+```
 sudo apt install ros-melodic-desktop
-or click here
+```
 
 ### ROS-Base: (Bare Bones) ROS package, build, and communication libraries. No GUI tools.
 ```
