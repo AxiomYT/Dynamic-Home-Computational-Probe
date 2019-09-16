@@ -2,7 +2,9 @@
 
 ## Communications branch
 
-“Hams are the people who nearly cause traffic accidents because they are gaping at awesome antennas when they should be paying attention to their driving."
+## Design Brief
+
+Our design is to create an autonomous robot that will – using OpenCV and ROS, navigate its environment effectively and to provide a sensor platform for data and readings in remote locations, due to its effective and simple rollout of Amateur Digital Radio for VHF communications. This effectively means that it will increase range over traditional Wi-Fi / Bluetooth IOT devices thousand-fold. Data integrity is also upheld through effective 2-Bit Error correction to ensure all mission-critical data is received and transmitted correctly. Its reliability and range makes it an effective devices from any scale – such as an office or even in outdoor expeditions where human presence could be endangered. 
 
 ### Packet Radio
 
