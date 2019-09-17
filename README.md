@@ -26,7 +26,7 @@ sudo raspi-config
 The Raspberry Pi Configuration Tool will now open to allow you to select interface options. Then on the next screen, 
 choose I2C to enable the interface.
 
-![pi-software-configuration-tool](https://github.com/AxiomYT/Dynamic-Home-Computational-Probe/blob/master/pi-software-configuration-tool.png)
+![pi-software-configuration-tool](https://raw.githubusercontent.com/AxiomYT/Dynamic-Home-Computational-Probe/master/pi-software-configuration-tool.png)
 
 Secondly, we now install the dependencies required by the SMBus2 library.
 execute the following in the Pi Terminal:
@@ -44,7 +44,7 @@ pip install smbus2
 # Or, for Python 3
 pip3 install smbus2
 ```
-## The Circuit <img src="https://github.com/AxiomYT/Dynamic-Home-Computational-Probe/blob/master/download.png" width="50" height="50" align="right" />
+## The Circuit <img src="https://raw.githubusercontent.com/AxiomYT/Dynamic-Home-Computational-Probe/master/download.png" width="50" height="50" align="right" />
 
 
 
@@ -58,7 +58,7 @@ So, to check the correct installation of the software packages, run the followin
 sudo i2cdetect -y 1
 ```
 
-![i2cdetect-serial-bus-check](https://github.com/AxiomYT/Dynamic-Home-Computational-Probe/blob/master/i2cdetect-serial-bus-check.png)
+![i2cdetect-serial-bus-check](https://raw.githubusercontent.com/AxiomYT/Dynamic-Home-Computational-Probe/master/i2cdetect-serial-bus-check.png)
 
 ## ROS Setup <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFqAKz_j5ndxEp-YrgNGubPwtNIBkuNkYBLC7JLDk66OUFFYfqYA" width="50" height="50" align="right" />
 
