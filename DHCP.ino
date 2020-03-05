@@ -1,73 +1,105 @@
 //--------Libraries and external sources--------\\
 #include <EEPROM.h>
 #include <Wire.h>
-#include <EEPROMextent.h>
-#include <C:\Users\Logan\Documents\Arduino\libraries\SoftwareSerial-master\SoftwareSerial.h>
+#include <SoftwareSerial.h>
+#include <Wire.h>
 
 //--------Variable Declaration--------\\
 #define MASTER_ADDRESS 0x04;
 #define SLAVE_ADDRESS 0x05;
 
+#define LEFT 10
+#define RIGHT 11
+#define LED 7
+#define SWITCH 2
+
+int SECS = 0;
 int number = 0;
 int state = 0;
-int address = 0; // the current address in the EEPROM
 int rawpacket;
+int addr = 0;
+int val = analogRead(0) / 4;
 
-SoftwareSerial SERIAL(10, 11); // RX, TX
+//----------Functions----------\\
+int LEFTMOTOR(SECS) {
+  digitalWrite(LEFT, LOW);
+  digitalWrite(RIGHT, HIGH);
+  delay(SECS);
+  digitalWrite(RIGHT, LOW);
+}
 
+int RIGHTMOTOR(SECS) {
+  digitalWrite(RIGHT, LOW);
+  digitalWrite(LEFT, HIGH);
+  delay(SECS);
+  digitalWrite(LEFT, LOW);
+}
+
+void setup() {
 //---------------Setup---------------\\
-void setup()
-  
+
+  pinMode(LEFT, OUTPUT);
+  pinMode(RIGHT, OUTPUT);
+  pinMode(LED, OUTPUT);  
 //------------Opening Streams------------\\
 //  EEPROM.begin(512); // EEPROM is slow, such is life in flash memory.
-  SERIAL.begin(115200); // Serial is fast, such is life on the internet super highway.
+  Serial.begin(115200); // Serial is fast, such is life on the internet super highway.
 
+  pinMode(RIGHT, INPUT);
+  pinMode(LED, INPUT); 
 //-------------I2C-------------\\
 //  Wire.begin(SLAVE_ADDRESS);
 //  Wire.onReceive(receiveData);
 //  Wire.onRequest(sendData);
 //  Serial.println("I2C connection established with", MASTER_ADDRESS);
-  
-//-----------Motor Definition-----------\\
 
+//-----------Motor Definition-----------\\
+  digitalWrite(LEFT, LOW);
+  digitalWrite(RIGHT, LOW);
 
 //---------------EEPROM Set---------------\\
 
-
+}
 // Serial.print(settings.value1);
 
-
 void loop() {
-  
-  // callback for received data
-//  void receiveData(int byteCount) {
 
   while(Wire.available()) {
+    
     rawpacket = Wire.read();
     Serial.print("data received: ");
     Serial.println(rawpacket);
-//    EEPROM.write
+    EEPROM.write(addr, val);
 
+   if (SWITCHSTATE == HIGH) {
+    LEFTMOTOR();
+    RIGHTMOTOR();
+   } 
+   else {
     if (number == 1) {
 
       if (state == 0) {
        digitalWrite(13, HIGH); // set the LED on
        state = 1;
      }
-  
+
      else {
        digitalWrite(13, LOW); // set the LED off
        state = 0;
      }
-    
+
     }
     else {
-    
+
     }
-   
+
   }
-  
+
+  FORWARD();
+}
+
 // callback for sending data
 //void sendData(){
 //Wire.write(number);
+}
 }
