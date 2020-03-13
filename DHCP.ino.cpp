@@ -24,17 +24,28 @@
 //--------------Object Decleration--------------
 class Prom { // EEPROM Object
 	public:
-		uint16_t address;
+		uint8_t address;
 		Prom() {
 			address = MASTER_ADDRESS;
 		}
 }
 
+struct response {
+	uint8_t syn;
+	uint8_t ack;
+	uint8_t cmd;
+	uint8_t delay;
+}
+
 struct Point {
-	void Command = "";
+	struct response message;
 	bool Response; 
 	int Time;
+
 }
+
+point->response = malloc(sizeof(response));
+memcpy(point->response, rawdata, sizeof(response));
 
 //-----------Function Declaration-----------
 int LEFTMOTOR() {
@@ -109,13 +120,10 @@ void setup() {
 							// Instead - just execute what's already in the buffer and keep checking rawdata for changes.
 
 //-------------Command String Parser-------------
-char * variable = myString;
-char myString [] = rawdata;
+char* asap = strstr(rawdata, ",");
 
-while (*variable != ',') variable++;  // finding the comma 
-	variable++ = '\0';
-	print (myString);
-	print (variable);
+	print (rawdata);
+	print (asap);
 
 }
 // Serial.print(settings.value1);
