@@ -3,7 +3,7 @@
 Foundation Apprenticeship Year Two Project
 
 ## TO-DO list
-- [ ] Relay Triggerring 
+- [ ] Relay Triggering 
 - [ ] GPIO Control
 - [X] IIC Connection
 - [ ] IIC Code
