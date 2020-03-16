@@ -2,6 +2,13 @@
 
 Foundation Apprenticeship Year Two Project
 
+## TO-DO list
+- [ ] Relay Triggerring 
+- [ ] GPIO Control
+- [X] IIC Connection
+- [ ] IIC Code
+- [ ] Glue Down Circuit
+
 ## Getting Started
 
 ### Dependencies
